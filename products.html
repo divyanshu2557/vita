@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Blends | Vita</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Quicksand:wght@400;600&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Quicksand';
+            background: #fdfaf5;
+        }
+
+        nav {
+            padding: 20px 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 2rem;
+            color: #3a5a40;
+            text-decoration: none;
+            font-family: 'DM+Serif+Display';
+        }
+
+        .he {
+            padding: 80px 5%;
+            background: #3a5a40;
+            color: white;
+            text-align: center;
+        }
+
+        .container {
+            padding: 50px 8%;
+        }
+
+        .product {
+            display: flex;
+            align-items: center;
+            gap: 60px;
+            margin-bottom: 100px;
+        }
+
+        .product:nth-child(even) {
+            flex-direction: row-reverse;
+        }
+
+        .p-img {
+            flex: 1;
+            height: 400px;
+            background: #eee;
+            border-radius: 15px;
+            overflow: hidden;
+        }
+
+        .p-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .p-desc {
+            flex: 1;
+        }
+
+        .p-desc h2 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            color: #3a5a40;
+        }
+
+        .price-tag {
+            color: #a47148;
+            font-weight: bold;
+            font-size: 1.5rem;
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <a href="index.html" class="logo">vita.</a>
+        <div style="font-weight: 600;"><a href="index.html" style="text-decoration:none; color:black;">← Back Home</a>
+        </div>
+    </nav>
+
+    <div class="he">
+        <h1 style="font-family:'DM+Serif+Display'; font-size: 4rem;">The Collection</h1>
+        <p>Nutrition tailored for specific needs.</p>
+    </div>
+
+    <div class="container">
+        <div class="product">
+            <div class="p-img"><img
+                    src="https://images.unsplash.com/photo-1551019150-13f630048882?auto=format&fit=crop&q=80&w=800">
+            </div>
+            <div class="p-desc">
+                <span class="price-tag">Premium Range</span>
+                <h2>Vita Gold Pellets</h2>
+                <p>Our flagship blend for high-yielding Holstein Friesian (HF) cows. Focused on maintaining Body
+                    Condition Score (BCS) during peak lactation.</p>
+                <br>
+                <strong>Key Ingredients:</strong> Toasted Soy, Crushed Maize, Vitamin Premix.
+            </div>
+        </div>
+
+        <div class="product">
+            <div class="p-img"><img
+                    src="https://images.unsplash.com/photo-1545465344-933391264c71?auto=format&fit=crop&q=80&w=800">
+            </div>
+            <div class="p-desc">
+                <span class="price-tag">Calf Growth</span>
+                <h2>Junior Vita Crumbs</h2>
+                <p>Small, easy-to-digest crumbs for calves aged 2-6 months. Helps in rumen development and faster weight
+                    gain.</p>
+                <br>
+                <strong>Key Ingredients:</strong> Molasses, Wheat Bran, Essential Minerals.
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

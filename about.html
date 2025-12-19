@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Roots | Vita Cattle Feed</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Quicksand:wght@400;600&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --earth: #fdfaf5;
+            --moss: #3a5a40;
+            --clay: #a47148;
+            --night: #232f28;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Quicksand', sans-serif;
+            background: var(--earth);
+            color: var(--night);
+            line-height: 1.8;
+        }
+
+        h1,
+        h2 {
+            font-family: 'DM+Serif+Display', serif;
+            color: var(--moss);
+        }
+
+        nav {
+            padding: 20px 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 2rem;
+            color: var(--moss);
+            text-decoration: none;
+            font-family: 'DM+Serif+Display';
+        }
+
+        .about {
+            padding: 80px 10%;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            align-items: center;
+        }
+
+        .about img {
+            width: 100%;
+            border-radius: 30px 100px 30px 30px;
+            border: 8px solid white;
+            box-shadow: 10px 10px 0px var(--clay);
+        }
+
+        .section {
+            background: white;
+            padding: 100px 10%;
+            margin: 50px 0;
+        }
+
+        .timeline {
+            border-left: 2px dashed var(--clay);
+            padding-left: 30px;
+            margin-left: 20px;
+        }
+
+        .point {
+            position: relative;
+            margin-bottom: 40px;
+        }
+
+        .point::before {
+            content: '';
+            position: absolute;
+            left: -39px;
+            top: 10px;
+            width: 15px;
+            height: 15px;
+            background: var(--moss);
+            border-radius: 50%;
+        }
+
+        .box {
+            background: #f1ede4;
+            padding: 50px;
+            border-radius: 20px;
+            font-style: italic;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <a href="index.html" class="logo">vita.</a>
+        <div style="font-weight: 600;"><a href="index.html" style="text-decoration:none; color:black;">Home</a></div>
+    </nav>
+
+    <section class="about">
+        <div>
+            <span style="color:var(--clay); font-weight:bold;">SINCE 1994</span>
+            <h1>It started in a small shed with a big vision.</h1>
+            <p>Before Vita was an industry, it was a farmer's promise. Our founder, Sardar Singh, realized that the
+                quality of milk in our villages was dropping because the feed was becoming industrial and
+                chemical-heavy. He decided to go back to the basics—real grain, real minerals, and real honesty.</p>
+        </div>
+        <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&q=80&w=1000"
+            alt="Farm land">
+    </section>
+
+    [Image of a timeline showing the evolution of cattle feed production from manual mixing to modern automation]
+
+    <section class="section">
+        <h2>Our Journey</h2>
+        <div class="timeline">
+            <div class="point">
+                <h3>1994: The First Batch</h3>
+                <p>We started by mixing small batches of mustard cake and maize for local dairy farmers.</p>
+            </div>
+            <div class="point">
+                <h3>2005: The Lab</h3>
+                <p>Vita established its first quality-testing lab to ensure every bag is toxin-free.</p>
+            </div>
+            <div class="point">
+                <h3>2024: 50,000+ Farmers</h3>
+                <p>Today, we serve the entire northern belt, keeping the health of the animal at the heart of our tech.
+                </p>
+            </div>
+        </div>
+
+        <div class="box">
+            <p>"A cow is not a machine; she is a member of the farmer's family. We feed her with that respect."</p>
+            <p><strong>— Sardar Singh, Founder</strong></p>
+        </div>
+    </section>
+
+</body>
+
+</html>
